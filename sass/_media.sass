@@ -1,0 +1,198 @@
+@media (max-width: 1200px)
+    .menu
+        &_item
+            padding-right: 20px
+        &_link
+            font-size: 13px
+    .advantage_content
+        align-items: flex-start
+    .advantage_info 
+        width: 304px
+    .promo
+        &_header
+            font-size: 45px
+        &_subheader
+            font-size: 25px
+        &_descr
+            font-size: 15px
+            width: 774px
+    .footer_link
+        width: 335px
+    .footer_platform
+        flex-direction: column
+        align-items: flex-end
+        padding-right: 20px
+    .footer_platform a
+        margin: 0
+        margin-bottom: 6px
+@media (max-width: 991px)
+    .menu
+        &_item
+            padding-right: 8px
+        &_link
+            font-size: 10px
+    .subheader_logo
+        img
+            width: 100%
+    .subheader_officiial
+        width: 100%
+    .subheader_phone
+        font-size: 20px
+    .promo
+        min-height: 630px
+        &_header
+            font-size: 30px
+        &_subheader
+            font-size: 15px
+        &_descr
+            font-size: 13px
+            width: 100%
+        &_btn
+            width: 200px
+            height: 45px
+            margin-top: 70px
+    .repeat_cause
+        font-size: 30px
+    .mobile_item
+        width: 274px
+        height: 259px
+    .car
+        min-height: 780px
+        padding: 58px 0 85px 0
+        .container img
+            width: 100%
+            height: 430px
+            margin-top: 20px
+    .footer_wrapper
+        display: flex
+        flex-wrap: wrap
+    .footer_wrapper > div
+        margin: 0 auto
+        width: 100%
+        &:nth-child(1)
+            order: 2
+        &:nth-child(2)
+            order: 1
+        &:nth-child(3)
+            order: 3
+    .footer_platform
+        flex-direction: row
+        justify-content: center
+        padding: 10px 0
+        a 
+            margin: 0 5px
+    .footer_icon
+        justify-content: center
+        margin: 0
+        margin-top: 10px
+@media (max-width: 768px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        right: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0, 0, 0, .8)
+        z-index: 10
+        transition: 0.5 all
+        &_active
+            left: 0
+        &_item
+            padding-right: 0
+            border: none
+        &_link
+            font-size: 20px
+            margin-top: 10px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 2px
+            transition: 0.5 all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translate(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translate(3px) rotate(45deg)
+    .nav
+        height: 50px
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader_officiial
+        display: none
+    .subheader
+        &_logo
+            margin-top: 24px
+        .row > div
+            &:nth-child(3)
+                display: flex
+                flex-direction: column
+                align-items: center
+            &:nth-child(1) > a
+                .logo
+                    display: block
+                    width: 90%
+                    margin: 0 auto
+    .repeat_cause
+        font-size: 20px
+    .advantage_content
+            display: flex
+            flex-direction: column
+            align-items: center
+    .advantage_info_title
+        margin-top: 20px
+    .advantage_info
+        width: 100%
+    .subheader_buttons
+        margin-top: 10px
+@media (max-width: 575px)
+    .header
+        height: 30px
+    .nav
+        height: 30px
+    .menu
+        width: 85%
+    .menu_link 
+        font-size: 13px
+        margin-top: 12px
+    .promo
+        padding: 110px 0 40px 0
+    .subheader_phone
+        font-size: 15px
+    .subheader_buttons
+        width: 90%
+        font-size: 11px
+    .car
+        .container
+            .car_desc
+                width: 250px
+                font-size: 10px
+    .footer_link
+        width: 300px
+    .footer_link_sub
+        font-size: 9px
+    .hamburger_active
+        margin-top: 5px
+
+
+
